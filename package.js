@@ -10,8 +10,3 @@ Package.onUse(function(api) {
   api.addFiles('ccan:cssreset.css', 'client');
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('ccan:cssreset');
-  api.addFiles('ccan:cssreset-tests.css', 'client');
-});
